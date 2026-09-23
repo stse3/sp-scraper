@@ -34,7 +34,7 @@ DOWNLOAD_ATTEMPTS = 3
 MAX_FAILED_ROWS = 3  # give up on a tab after this many documents fail outright
 MAX_LIST_ROWS = 30  # rows that fit in the tall viewport
 PAGE_TIMEOUT_MS = 30_000
-DOWNLOAD_TIMEOUT_MS = 60_000
+DOWNLOAD_TIMEOUT_MS = 5_000
 
 
 class ScrapeError(Exception):
